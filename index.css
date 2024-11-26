@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+.content{
+    background-color: red;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.navbar  ul{
+  display: flex;
+flex-direction: row;
+gap: 20px;
+color: white;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.navbar li{
+    list-style: none;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 40px;
+}
+.left-content{
+    padding-left: 130px;
+}
+.right-content{
+    position: relative;
+
+}
+.right-content .image{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 30px;
+}
+.shop .head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 25px;
+}
+.shop .shop-content{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.card1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.card1 .top{
+    background-color: #FFDC99;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.top .cheetos{
+    padding-bottom: 80px ;
+}
+.card1 .bottom{
+  background-color: #FFB222;
+  width: 300px;
+  height: 240px;
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+
